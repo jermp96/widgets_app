@@ -14,7 +14,7 @@ class MenuItem {
   });
 }
 
-const appMenuItems = <MenuItem> {
+const appMenuItems = <MenuItem> [
   MenuItem(
     icon: Icons.smart_button_outlined,
     link: '/buttons',
@@ -27,4 +27,4 @@ const appMenuItems = <MenuItem> {
     subTitle: 'Un contenedor estilizado',
     title: 'Tarjetas'
   ),
-};
+];
